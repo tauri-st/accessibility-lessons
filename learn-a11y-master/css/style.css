@@ -11,12 +11,12 @@ body {
 }
 
 .sr-only {
-  position: absolute;
-  left: 0;
-  top: -580px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+  position:absolute;
+  transform: translateY(-100%);
+}
+
+.sr-only:focus {
+  
 }
 
 #container li {
