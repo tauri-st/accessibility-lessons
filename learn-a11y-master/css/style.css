@@ -10,6 +10,15 @@ body {
   font-size: 22px;
 }
 
+.sr-only {
+  position: absolute;
+  left: 0;
+  top: 580px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 #container li {
   margin: 10px 0;
 }
