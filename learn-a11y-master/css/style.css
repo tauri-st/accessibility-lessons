@@ -11,12 +11,12 @@ body {
 }
 
 .sr-only {
-  position:absolute;
+  position: absolute;
   transform: translateY(-100%);
 }
 
-.sr-only:focus {
-  
+.content-skip-link:focus {
+  transform: translate(0%);
 }
 
 #container li {
