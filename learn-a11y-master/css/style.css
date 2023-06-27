@@ -15,12 +15,12 @@ body {
   transform: translateY(-100%);
 }
 
-.content-skip-link {
+#content-skip-link {
   background-color: yellow;
 }
 
-.content-skip-link:focus {
-  transform: translate(0%);
+#content-skip-link:focus {
+  transform: translateY(0%);
 }
 
 #container li {
