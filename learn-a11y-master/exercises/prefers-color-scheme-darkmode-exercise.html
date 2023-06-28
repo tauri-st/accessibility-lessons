@@ -31,8 +31,10 @@
       let currentlyLightTheme = window.matchMedia("(prefers-color-scheme: light)");
       function toggle() {
         if (currentlyLightTheme) {
+          main.className = "overrideLight";
           currentlyLightTheme = false;
         } else {
+          main.className = "overrideDark";
           currentlyLightTheme = true;
         }
       }
