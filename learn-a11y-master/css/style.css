@@ -461,3 +461,17 @@ pre[class*="language-"] {
 .token.entity {
   cursor: help;
 }
+
+@media (prefers-color-scheme: dark) {
+  .main {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .main {
+    background-color: white;
+    color: black;
+  }
+}
