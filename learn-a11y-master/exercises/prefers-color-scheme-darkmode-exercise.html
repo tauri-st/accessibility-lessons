@@ -28,12 +28,12 @@
     </div>
     <script>
       const main = document.querySelector(".main");
-      let currentTheme = "";
+      let currentlyLightTheme = window.matchMedia("(prefers-color-scheme: light)");
       function toggle() {
-        if (window.matchMedia("(prefers-color-scheme: dark)")) {
-          currentTheme = "dark";
+        if (currentlyLightTheme) {
+          currentlyLightTheme = false;
         } else {
-          currenTheme = "light";
+          currentlyLightTheme = true;
         }
       }
     </script>
