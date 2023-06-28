@@ -462,7 +462,14 @@ pre[class*="language-"] {
   cursor: help;
 }
 
-@media (prefers-color-scheme: dark) {
+.overrideLight {
+  .main {
+    background-color: white;
+    color: black;
+  }
+}
+
+.overrideDark {
   .main {
     background-color: black;
     color: white;
@@ -473,5 +480,12 @@ pre[class*="language-"] {
   .main {
     background-color: white;
     color: black;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .main {
+    background-color: black;
+    color: white;
   }
 }
