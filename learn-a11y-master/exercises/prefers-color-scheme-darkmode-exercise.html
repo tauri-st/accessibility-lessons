@@ -27,8 +27,11 @@
       </label>
     </div>
     <script>
+      
       function toggle() {
-        
+        if (window.matchMedia("(prefers-color-scheme: dark)")) {
+          console.log("Dark mode is supported");
+        }
       }
     </script>
   </body>
